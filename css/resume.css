@@ -1,0 +1,172 @@
+a:focus{
+    text-decoration: none;
+}
+td{
+    border:none !important;
+}
+.site-branding > a {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+}
+.site-branding {
+    position: absolute;
+    top:-18px;
+    left:10px
+}
+.site-branding > a >img{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+}
+.site-header{
+    margin-bottom: 30px;
+}
+ul.main-menu li a{
+    font-size: 16px;
+}
+.table-condensed tr:nth-child(2n-1){
+    color:#32353a;
+}
+.home-intro{
+    margin-bottom:30px;
+}
+.project-title{
+    padding: 20px;
+}
+.our-story{
+    padding:0;
+    margin-top:0;
+}
+.our-offers{
+    padding:10px;
+    margin-bottom:30px;
+}
+.our-offers ul li{
+    background: #262626;
+    box-shadow:inset 0 5px 6px -7px;
+    border:none;
+}
+.inner-story{
+    background-color:transparent;
+    padding:10px;
+}
+
+.contact-header p{
+
+    position:relative;
+}
+.contact-header p span{
+    vertical-align: middle;
+    margin-right: 5px;
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-header p:nth-of-type(2) span{
+    background-image: url(../img/qq.png)
+}
+.contact-header p:nth-of-type(3) span{
+    background-image: url(../img/email.png)
+}
+.contact-header p:nth-of-type(4) span{
+    background-image: url(../img/tel.png)
+}
+.contact-header p:nth-of-type(5) span{
+    background-image: url(../img/wei.png)
+}
+//进度条动画
+.demo{
+            background: linear-gradient(to right, #322c35, #545454, #322c35);
+        }
+        .progress{
+            background: #262626;
+            border-radius: 20px;
+            height: 20px;
+            border-top: 1px solid #000;
+            box-shadow: 0 5px 4px -6px #aaa;
+            overflow: visible;
+        }
+        .progress .progress-bar{
+            border-radius: 20px;
+            position: relative;
+            animation: animate-positive 2s  1s forwards;
+        }
+        .progress .progress-bar.two{
+            animation: animate-positive2 2s  1.5s forwards;
+        }
+        .progress .progress-bar.three{
+            animation: animate-positive3 2s  1.3s forwards;
+        }
+        .progress .progress-bar.four{
+            animation: animate-positive4 2s  1.8s forwards;
+        }
+         .progress .progress-bar.five{
+            animation: animate-positive5 2s  1.9s forwards;
+        }
+        .progress .progress-bar.six{
+            animation: animate-positive6 2s  1.1s forwards;
+        }
+        .progress .progress-value{
+            display: block;
+            font-size: 13px;
+            color: #fff;
+
+            padding: 3px 8px;
+
+            position: absolute;
+            top: -3px;
+            right: -35px;
+        }
+
+        @-webkit-keyframes animate-positive{
+            0% { width: 0%; }
+            100%{width:85%;}
+        }
+        @keyframes animate-positive{
+            0% { width: 0%; }
+            100%{width:85%;}
+        }
+             @-webkit-keyframes animate-positive2{
+            0% { width: 0%; }
+            100%{width:80%;}
+        }
+        @keyframes animate-positive2{
+            0% { width: 0%; }
+            100%{width:80%;}
+        }
+               @-webkit-keyframes animate-positive3{
+            0% { width: 0%; }
+            100%{width:70%;}
+        }
+        @keyframes animate-positive3{
+            0% { width: 0%; }
+            100%{width:70%;}
+        }
+            @-webkit-keyframes animate-positive4{
+            0% { width: 0%; }
+            100%{width:30%;}
+        }
+        @keyframes animate-positive4{
+            0% { width: 0%; }
+            100%{width:30%;}
+        }
+         @-webkit-keyframes animate-positive5{
+            0% { width: 0%; }
+            100%{width:90%;}
+        }
+        @keyframes animate-positive5{
+            0% { width: 0%; }
+            100%{width:90%;}
+        }
+        @-webkit-keyframes animate-positive6{
+            0% { width: 0%; }
+            100%{width:45%;}
+        }
+        @keyframes animate-positive6{
+            0% { width: 0%; }
+            100%{width:45%;}
+        }
+        //时间轴记事
